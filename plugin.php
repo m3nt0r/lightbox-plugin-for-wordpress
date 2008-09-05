@@ -222,7 +222,7 @@ define("LIGHTBOX_DISABLE_WORD",    '##NOLIGHTBOX##');   		// disables the lightb
 				update_option('lightbox_settings', serialize($lightbox_defaults));
 			}
 			
-			echo '<div class="wrap"><h2>Lightbox Options</h2><small style="display:block;text-align:right">Version: '.$lightbox_version.'</small>';
+			echo '<div class="wrap"><h2>Lightbox Options</h2><small style="display:block;text-align:right">Version: '.LIGHTBOX_VERSION.'</small>';
 			echo '<form method="post" action="options-general.php?page=lightboxoptions">';		
 			echo '<input type="hidden" name="update_lightbox" value="true" />';
 			
